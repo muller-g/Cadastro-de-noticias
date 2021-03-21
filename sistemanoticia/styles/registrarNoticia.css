@@ -1,0 +1,60 @@
+.cad-new{
+    display: inline-grid;
+    width: 200px;
+    justify-content: center;
+}
+
+.form-cad form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.list-menu form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cad-new label{
+    font-size: 20px;
+    margin: 1%;
+}
+
+#title-field{
+    width: 700px;
+    height: 30px;
+    font-size: 25px;
+    margin: 1%;
+    border: 0px;
+}
+
+#new{
+    width: 700px;
+    font-size: 20px;
+    margin: 1%;
+    border: 0px;
+}
+
+#category-field{
+    margin: 1%;
+    font-size: 25px;
+    width: 700px;
+    border: 0px;
+}
+
+#id{
+    width: 20px;
+}
+
+.cad-new input[type="submit" i]{
+    width: 100px;
+    margin-left: 1%;
+    font-size: 20px;
+    border: 0px;
+}
+
+.cad-new input[type="submit" i]:hover{
+    color: rgb(190, 190, 190);
+}

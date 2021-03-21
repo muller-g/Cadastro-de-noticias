@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    background-color: #cecece;
+}
+
+.grid-menu{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    width: 100%;
+    background-color: #a1a1a1;
+    height: 50px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.grid-menu .btn-home span a{
+    display: flex;
+    background-image: url(../assets/botao-home.svg);
+    height: 40px;
+    width: 40px;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+}
+
+.list-menu{
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.list-menu span{
+    margin-right: 20px;
+}
+
+.list-menu span a{
+    color: white;
+}
+
+.list-menu span input{
+    border-radius: 6px;
+    border: white;
+}
+
+.list-menu span a:hover{
+    color: rgb(190, 190, 190);
+}
+
+.grid-news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: auto;
+    align-items: center;
+    margin: 5% 5% 5% 5%;
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+}
+
+.grid-news-child{
+    width: auto;
+    height: 100%;
+    border-radius: 3px;
+    background-color: white;
+    
+}
+
+.grid-news-child .grid-news-child-title{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 2%;
+}
+
+.grid-news-child .grid-news-child-text{
+    justify-content: left;
+    align-items: center;
+    display: flex;
+    padding: 2%;
+}   
+
+.grid-news-child>:last-child{
+    font-weight: bold;
+    color: black;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid-news .grid-news-child .grid-news-child-link a:hover{
+    color: rgb(190, 190, 190);
+}
+
+.grid-news-child .grid-news-child-category{
+    color: cadetblue;
+    border-bottom: 1px solid rgb(187, 187, 187);
+    border-top: 1px solid rgb(187, 187, 187);
+    padding: 2%;
+}
+
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #a1a1a1;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    height: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
